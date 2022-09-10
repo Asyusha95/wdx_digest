@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerServerName>SERVER-CQ80BEA</RemoteDebuggerServerName>
+    <RemoteDebuggerAttach>true</RemoteDebuggerAttach>
+    <RemoteDebuggerDeployDebugCppRuntime>true</RemoteDebuggerDeployDebugCppRuntime>
+    <RemoteDebuggerDeployCppRuntime>true</RemoteDebuggerDeployCppRuntime>
+    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>TOTALCMD64.EXE</RemoteDebuggerCommand>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <RemoteDebuggerServerName>SERVER-CQ80BEA</RemoteDebuggerServerName>
+    <RemoteDebuggerAttach>true</RemoteDebuggerAttach>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerDeployDebugCppRuntime>true</RemoteDebuggerDeployDebugCppRuntime>
+    <RemoteDebuggerDeployCppRuntime>true</RemoteDebuggerDeployCppRuntime>
+    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>TOTALCMD64.EXE</RemoteDebuggerCommand>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <RemoteDebuggerServerName>SERVER-CQ80BEA</RemoteDebuggerServerName>
+    <RemoteDebuggerAttach>true</RemoteDebuggerAttach>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerDeployDebugCppRuntime>false</RemoteDebuggerDeployDebugCppRuntime>
+    <RemoteDebuggerDeployCppRuntime>true</RemoteDebuggerDeployCppRuntime>
+    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>TOTALCMD64.EXE</RemoteDebuggerCommand>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <RemoteDebuggerServerName>SERVER-CQ80BEA</RemoteDebuggerServerName>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerAttach>true</RemoteDebuggerAttach>
+    <RemoteDebuggerDeployDebugCppRuntime>false</RemoteDebuggerDeployDebugCppRuntime>
+    <RemoteDebuggerDeployCppRuntime>true</RemoteDebuggerDeployCppRuntime>
+    <RemoteDebuggerConnection>RemoteWithAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>TOTALCMD64.EXE</RemoteDebuggerCommand>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+  </PropertyGroup>
+</Project>
